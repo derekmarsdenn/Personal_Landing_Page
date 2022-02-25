@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Derek Marsden - Web Developer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+    <script defer src="https://use.fontawesome.com/releases/v5.7.0/js/all.js"></script>
+    <script defer type="text/javascript" src="js/main.js"></script>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, user-scalable-no, initial-scale=1.0">
+    <link rel="stylesheet" href="css/minireset.min.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div class="wallpaper" id="wallpaper" data-images="images/MistyMountain.jpg"></div>
+    <div class="content">
+            <aside class="side">
+                <figure class="picture" id="picture">
+                    <div class="picture-shadow"></div>
+                    <img src="images/Profile.jpg" alt="Picture of Derek Marsden" 
+                    srcset="images/Profile.jpg 1x,
+                    images/Profile.jpg 2x,
+                    images/Profile.jpg 3x,
+                    images/Profile.jpg 4x"
+                    class="picture-image" id="pictureImage"
+                    width="320" height="320">
+                </figure>
+            </aside>
+            <main class="about">
+                <h1 class="name">Derek Marsden</h1>
+                <p class="job">Web Developer</p>
+                <hr class="hr">
+                <div class="description">
+                    <p>Derek enjoys spending time with his wife, making music, performing, and playing video games. He is studying Web Design and User Experience at Weber State University.</p>
+                </div>
+                <div class="contact">
+                    <a class="button" href="mailto:derekcmarsden@gmail.com">Email me.</a>
+                    <ul class="social">
+                        <li>
+                            <a href="https://github.com/derekmarsdenn" target="_blank">
+                                <i class="fab fa-github-square"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/derek-marsden/" target="_blank">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/derek.marsden.963" target="_blank">
+                                <i class="fab fa-facebook-square"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </main>
+    </div>
+    <noscript>
+        <style>
+            .wallpaper {
+                animation-name: zoomOut;
+            }
+            .picture {
+                animation-name: dropIn;
+            }
+        </style>
+    </noscript>
+</body>
+</html>
